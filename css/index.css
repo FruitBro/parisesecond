@@ -1,0 +1,92 @@
+body {
+	background: #b7d4b0;
+}
+.outer{
+	position: relative;
+	width: 215px;
+	height: 250px;
+}
+.addNum {
+	position: relative;
+}
+
+.add {
+	position: absolute;
+	left: 225px;
+	color: red;
+}
+
+.hand {
+	position: absolute;
+	top: 120px;
+	width: 100px;
+	height: 80px;
+	background: #f2c5af;
+	border-top: 1px solid #ce8662;
+	z-index: 1;
+}
+
+.finger {
+	position: absolute;
+	left: 80px;
+	top: 80px;
+	width: 100px;
+	height: 163px;
+	background: #f2c5af;
+	border: 1px solid #ce8662;
+	border-radius: 20px;
+}
+
+.fin {
+	position: relative;
+	top: -1px;
+	left: 80px;
+	width: 50px;
+	height: 40px;
+	border: 1px solid #ce8662;
+	border-style: solid solid none none;
+	border-radius: 0 20px 20px 0;
+	background: -webkit-linear-gradient(left, #f2c5af 30%, #fae9e0 70%);
+	/*谷歌*/
+	box-shadow: -3px 3px 3px #F2C5AF inset, -3px -3px 3px #F2C5AF inset;
+}
+
+.fin:last-child {
+	border-bottom-style: solid;
+}
+
+.bigfin {
+	position: absolute;
+	top: 36px;
+	left: 90px;
+	width: 80px;
+	z-index: 1;
+	transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	/* IE 9 */
+	-moz-transform: rotate(-60deg);
+	/* Firefox */
+	-webkit-transform: rotate(-60deg);
+	/* Safari 和 Chrome */
+	-o-transform: rotate(-60deg);
+	/* Opera */
+	/*background: linear-gradient(orange,yellow);
+				background: -webkit-linear-gradient(left,orange 30%,yellow 70%);
+				background: -ms-linear-gradient(orange,yellow);
+				background: -moz-linear-gradient(orange,yellow);*/
+	/*background:-webkit-gradient(linear, 0% 80%, 80% 80%,from(pink), to(yellow));*/
+	/*background:-webkit-linear-gradient(360deg,orange,yellow);/*谷歌*/
+}
+
+.fin-inner {
+	position: relative;
+	height: 40px;
+	width: 25px;
+	left: 14px;
+	border-radius: 0 20px 20px 0;
+	/*background: -webkit-gradient(linear, 100% 0, 0 0, color-stop(0.8, red), color-stop(0.2, orange));*/
+	background: -webkit-linear-gradient(right, #e7ae91 30%, #f2c5af 70%);
+	background: -moz-linear-gradient(right, #e7ae91 30%, #f2c5af 70%);
+	background: -o-linear-gradient(right, #e7ae91 30%, #f2c5af 70%);
+	background: linear-gradient(right, #e7ae91 30%, #f2c5af 70%);
+}
